@@ -35,8 +35,8 @@ One particular drawback is the "Shape" criteria as the dataset has pretty define
 
 ## Recommendations
 
--In the future I'd recommend adding more search criteria that's included in the data set: "duration" and "comments". 
+- In the future I'd recommend adding more search criteria that's included in the data set: "duration" and "comments". 
 Users could search by a certain comment made about a certain sighting and also search how long each sighting lasted. 
 
 
--Furthermore, some clean up of the data set itself.  There's Hypertext Markup scattered throughout such as "&#44' and '&39s', which after a quick Google search are supposed to be comma's and apostrophe's respectively.  
+- Furthermore, some clean up of the data set itself.  There's Hypertext Markup scattered throughout such as "&#44' and '&39s', which after a quick Google search are supposed to be comma's and apostrophe's respectively.  
