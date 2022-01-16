@@ -74,27 +74,37 @@ function updateFilters() {
     // matches the filter values
 
     let filteredData = tableData;
-    console.log("filterData: " + filteredData);
+    console.log("Rows Before: " + filteredData.length);
 
-    if (date || city || state || country || shape) {
+      if (date || city || state || country || shape) { // || country
         if (date) {
-            filteredData = filteredData.filter(row => row.datetime === date);
+          console.log("Date: " + date);
+            filteredData = filteredData.filter((row) => {
+              console.log("Row: " + row.datetime)
+              return row.datetime === date;
+            })
         }
+
         if (city) {
             filteredData = filteredData.filter(row => row.city === city);
+            
         }
+        
         if (state) {
             filteredData = filteredData.filter(row => row.state === state);
         }
+
         if (country) {
             filteredData = filteredData.filter(row => row.country === country);
         }
+
         if (shape) {
             filteredData = filteredData.filter(row => row.shape === shape);
         }
     }
     
-  
+    console.log("Rows After: " + filteredData.length);
+
     // 10. Finally, rebuild the table using the filtered data
     buildTable(filteredData);
     
