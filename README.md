@@ -5,14 +5,19 @@ This project served as an interactive website using JavaScript with D3, CSS, and
 # Results
 
 We've added four more Filter Search Criteria to Dana's website: city, state, country, and shape.
+![Screen Shot 2022-01-16 at 12 41 36 PM](https://user-images.githubusercontent.com/92451164/149675133-bd31b2a8-e28a-4498-aa62-9d056b05fcc0.png)
+
 
 ## JavaScript
 By adding the following to the JavaScript code:
-[img]
+![Screen Shot 2022-01-16 at 12 59 23 PM](https://user-images.githubusercontent.com/92451164/149675149-b20a0b97-0e28-4856-b0c8-a11b8b00ae32.png)
+Continued:
+![Screen Shot 2022-01-16 at 12 59 35 PM](https://user-images.githubusercontent.com/92451164/149675152-1ef70983-222b-4b1f-a7a5-6297205155e8.png)
 
 ## HTML
 And the following was added to the html code:
-[img]
+![Screen Shot 2022-01-16 at 1 00 23 PM](https://user-images.githubusercontent.com/92451164/149675164-c1d2b2af-a897-4462-8971-f629aa55423c.png)
+
 
 Now anyone who visits Dana's website is not just limited to filtering by date but by the new filtered search inputs as well which will return any matching datasets to the table. 
 
